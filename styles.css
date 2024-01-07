@@ -1,0 +1,33 @@
+#Main_text{
+    font-family: 'Lato', sans-serif;
+    text-align: center;;
+    font-size: 80px;
+}
+
+body {
+    background-image: linear-gradient(to right, red , yellow);
+}
+
+#contact_button{
+    border-radius: 25px;
+    border: 0cap;  
+      background-color: rgb(255, 165, 0);
+}
+#contact_button:hover {
+    background-color: rgb(200, 130, 0);
+}
+#contact_button {
+    border-radius: 25px;
+    border: 0cap;  
+    background-color: rgb(255, 165, 0);
+    padding: 15px 32px;   /* Increase padding to make button larger */
+    font-size: 24px;      /* Increase font size */
+}#contact_button {
+    display: block;
+    margin: auto;
+}
+
+
+#favicon{
+    border-radius: 50px;
+}
