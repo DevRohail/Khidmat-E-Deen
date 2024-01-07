@@ -2,10 +2,12 @@
     font-family: 'Lato', sans-serif;
     text-align: center;;
     font-size: 80px;
+    color: rgb(14, 66, 66);
+    
 }
 
 body {
-    background-image: linear-gradient(to right, red , yellow);
+    background-image: linear-gradient(to right, rgb(0, 47, 255) , yellow);
 }
 
 #contact_button{
@@ -20,8 +22,8 @@ body {
     border-radius: 25px;
     border: 0cap;  
     background-color: rgb(255, 165, 0);
-    padding: 15px 32px;   /* Increase padding to make button larger */
-    font-size: 24px;      /* Increase font size */
+    padding: 15px 32px;   
+    font-size: 24px;      
 }#contact_button {
     display: block;
     margin: auto;
@@ -32,11 +34,28 @@ body {
     border-radius: 50px;
 }
 
-container {
+div {
    font-size: 2rem;
    letter-spacing: 4px;
    justify-content: center;
    text-align: center;
    margin: auto;
-   padding: 20px;
+ 
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh; 
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    padding: 0;
 }
